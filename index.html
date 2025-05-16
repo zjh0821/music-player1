@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>HongMeimei 的音乐网页</title>
+  <style>
+    body {
+      background: url('2721747369391_.pic.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Helvetica Neue', sans-serif;
+      text-align: center;
+      padding: 50px;
+      color: #fff;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    h2 {
+      font-size: 1.8em;
+      margin-top: 40px;
+    }
+    .player-container {
+      background: rgba(0, 0, 0, 0.5);
+      border-radius: 15px;
+      padding: 30px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+      max-width: 600px;
+      margin: 20px auto;
+    }
+    audio {
+      width: 100%;
+      margin-top: 15px;
+    }
+    footer {
+      margin-top: 60px;
+      font-size: 0.9em;
+      color: #ddd;
+    }
+  </style>
+</head>
+<body>
+  <h1>HongMeimei</h1>
+
+  <div class="player-container">
+    <h2>歌曲1：假面</h2>
+    <audio controls loop>
+      <source src="jiamian.mp3" type="audio/mpeg">
+      您的浏览器不支持 audio 标签。
+    </audio>
+  </div>
+
+  <div class="player-container">
+    <h2>歌曲2：名字</h2>
+    <audio controls loop>
+      <source src="mingzi.mp3" type="audio/mpeg">
+      您的浏览器不支持 audio 标签。
+    </audio>
+  </div>
+
+  <footer>
+    页面由 GitHub Pages 托管 | 设计：HongMeimei
+  </footer>
+</body>
+</html>
